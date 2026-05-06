@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import DataTable from "@components/DataTable";
 // import { fetchUsers } from "./services/api";
 import type { User } from "../types";
 import { subscribeToUsers } from "@services/firestore";
 
-function RealTimeUser() {
+const RealTimeUser = (): React.ReactElement => {
   const [users, setUsers] = useState<User[]>([]);
 
   useEffect(() => {
@@ -24,6 +24,6 @@ function RealTimeUser() {
       </div>
     </div>
   );
-}
+};
 
 export default RealTimeUser;

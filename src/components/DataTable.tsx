@@ -1,10 +1,11 @@
+import React from "react";
 import type { User } from "../types";
 
 interface Props {
   data: User[];
 }
 
-const DataTable = ({ data }: Props) => {
+const DataTable = ({ data }: Props): React.ReactElement => {
   return (
     <table border={1} cellPadding={10} className="border border-gray-200 w-full">
       <thead>

@@ -1,4 +1,6 @@
-function Header() {
+import React from "react";
+
+const Header = (): React.ReactElement => {
   return (
     <header className="py-8 bg-gray-300">
       <div className="custom-container flex items-center justify-between">
@@ -21,6 +23,6 @@ function Header() {
       </div>
     </header>
   );
-}
+};
 
 export default Header;

@@ -1,4 +1,6 @@
-function Footer() {
+import React from "react";
+
+const Footer = (): React.ReactElement => {
   return (
     <footer className="py-4 bg-gray-100">
       <div className="custom-container flex items-center justify-center">
@@ -8,6 +10,6 @@ function Footer() {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
