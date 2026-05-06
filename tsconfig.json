@@ -36,7 +36,9 @@
       "@utils/*": ["src/utils/*"],
       "@hooks/*": ["src/hooks/*"],
       "@contexts/*": ["src/contexts/*"],
-      "@config/*": ["src/config/*"]
+      "@config/*": ["src/config/*"],
+      "@services/*": ["src/services/*"],
+      "@layout/*": ["src/layouts/*"],
     },
 
     /* Linting */
